@@ -1,9 +1,9 @@
-def square_array(array)
+def square_array(numbers)
   count = 0 
-  new_numbers = []
-  while array[count] do
-    new_numbers<<array[counter]*numbers[counter]
+  sqr_numbers = []
+  while numbers[count] do
+    new_numbers<<numbers[counter]*numbers[counter]
     counter += 1
   end
-  new_numbers
+  sqr_numbers
 end
